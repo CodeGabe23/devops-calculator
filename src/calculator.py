@@ -18,7 +18,21 @@ def divide(a, b):
 
 
 def main():
-    print(add(1,2))
+    while True:
+        a = float(input("First number: "))
+        op = input("Operator (+ - * /): ")
+        b = float(input("Second number: "))
+        
+        if op == "+":
+            print("Result:", add(a, b))
+        elif op == "-":
+            print("Result:", subtract(a, b))
+        elif op == "*":
+            print("Result:", multiply(a, b))
+        elif op == "/":
+            print("Result:", divide(a, b))
+        else:
+            print("Unknown operator:", op)
 
 
 # -- main program --
