@@ -1,5 +1,6 @@
 #!/bin/python3
 
+# sccm4910 lab project
 
 def add(a, b):
     return a + b
