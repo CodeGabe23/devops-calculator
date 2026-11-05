@@ -2,3 +2,4 @@ src/__pycache__/
 src/*.pyc
 .env
 keep-demo.log
+.pat
