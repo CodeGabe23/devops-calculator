@@ -1,7 +1,7 @@
 name: Calculator CI
 
 on:
-  tests:
+  push:
     branches: main
   pull_request:
 
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the code
-        uses: _______________
+        uses: actions/checkout@7
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
