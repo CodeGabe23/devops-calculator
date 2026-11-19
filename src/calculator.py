@@ -18,6 +18,12 @@ def divide(a, b):
     return a / b 
 
 
+def CircleArea(r):
+    if r >= 0:
+        return 3.14 * r * r
+    return "Nan"
+
+
 def main():
     while True:
         a = float(input("First number: "))
